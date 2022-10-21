@@ -1,0 +1,56 @@
+.login-popup {
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	background: linear-gradient(to bottom, var(--blue), var(--blue), var(--ligth-blue));
+	border-radius: 10px;
+	box-shadow: 2px 10px 30px var(--ligth-blue);
+  	position: absolute;
+  	top: 54px;
+  	right: 0px;
+}
+#check {
+	display: none;
+}
+.login-popup label {
+	color: var(--beige);
+	font-size: var(--lg);
+	justify-content: center;
+	display: flex;
+	margin: 20px;
+	font-weight: 550;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.login-popup input {	
+	width: 70%;
+	height: 18px;
+	display: flex;	
+	margin: 10px auto;
+}
+.login-div {
+	width:100%;
+	height: 100%;
+	position: absolute;
+}
+.signup-div {
+	height: 330px;
+	background: var(--beige);
+	border-radius: 60% / 10%;
+	transform: translateY(230px);
+	transition: .8s ease-in-out;
+}
+.signup-div label {
+	padding-top: 15px;
+	color: var(--pink);
+	transform: scale(.9);
+}
+#check:checked ~ .signup-div {
+	transform: translateY(-30px);
+}
+#check:checked ~ .signup-div label {
+	transform: scale(1);	
+}
+#check:checked ~ .login-div label {
+	transform: scale(.9);
+}

@@ -1,0 +1,15 @@
+.categories{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 100px auto;
+}
+.category-button {
+    width: 100%;    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.category-icon {
+    width: 100%;
+}

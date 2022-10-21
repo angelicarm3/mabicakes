@@ -1,0 +1,43 @@
+.product-info-1 {
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+    border: solid var(--blue);
+    border-radius: 10px;
+    padding: 20px;
+}
+.description {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-form {
+    display: flex;
+    justify-content: center;
+}
+.forms {
+    width: 70%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.forms label {
+    font-size: var(--sm);
+    font-weight: 600;    	
+	margin: 5px auto;
+}
+.images {
+    height: 80px;
+}
+select {
+    font-family: 'Mali', cursive;
+    color: gray;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+  

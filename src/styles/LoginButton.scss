@@ -1,0 +1,23 @@
+.login {
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button {
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    font-family: 'Mali', cursive;
+    font-size: var(--md);
+    font-weight: 550;
+    color: var(--beige);
+    background: var(--pink);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button:hover{
+	background: #E7919F;
+}

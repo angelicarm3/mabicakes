@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Mali', cursive;
+	color: var(--black);
+	background-color: var(--beige);
+}
+::placeholder {
+    font-family: 'Mali', cursive;
+    color: gray;
+    font-size: var(--xs);
+    font-style: italic;
+    opacity: 10;
+}
+.tittle {
+	font-size: var(--xl);
+    font-weight: 550;
+}
+input{
+	background: #FFFFFF;
+	text-align: center;
+    opacity: 5;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.primary-button {
+    font-family: 'Mali', cursive;
+    font-size: var(--md);
+    font-weight: 550;
+    color: var(--beige);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.secondary-button{
+	width: 120px;
+	height: 40px;
+	margin: 10px auto;
+    font-family: 'Mali', cursive;
+	justify-content: center;
+	display: block;
+	color: var(--beige);
+	background: var(--pink);
+	font-size: var(--md);
+	font-weight: 550;	
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.secondary-button:hover{
+	background: #E7919F;
+}

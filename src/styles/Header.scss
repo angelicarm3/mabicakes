@@ -1,0 +1,12 @@
+.header-bar {
+    background: var(--blue);
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 116px auto 25px 140px;
+    column-gap: 2px;
+    margin: none;
+    padding: none;
+    top: 0;
+}
